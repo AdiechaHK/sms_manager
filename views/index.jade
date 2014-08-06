@@ -1,0 +1,25 @@
+doctype 5
+html
+  head
+    title nCoder
+    link(rel='stylesheet', href='/css/bootstrap.css')
+    style
+      body {
+        background: #428bca;
+        color: #fff;
+      }
+  body
+    div
+      .container
+        h1 Welcome to nCoder
+        br
+        p The site is comming up very soon, we are buzy to develop a heigh quality product. subscribe us, we will get back to you when the site is ready.
+        br
+        form.form-inline(role="form", action='/subscribe')
+          .form-group
+            label.sr-only(for="email") Email address
+            input#email.form-control(type="email", placeholder="Enter email")
+          &nbsp;
+          button.btn.btn-default(type="submit") Subscribe
+        br
+        h3 Thank you.

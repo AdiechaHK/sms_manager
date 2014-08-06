@@ -1,0 +1,12 @@
+{
+  "name": "test_app",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "express": "3.4.7",
+    "jade": "1.2.1",
+    "cron": "1.0.1",
+    "time": "0.10.0",
+    "pg": "2.x"
+  }
+}
